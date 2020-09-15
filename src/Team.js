@@ -63,7 +63,6 @@ export default function RecipeReviewCard(props) {
                     </Avatar>
                 }
                 title={name}
-                subheader="September 14, 2016"
             />
             <CardMedia
                 className={classes.media}
@@ -89,7 +88,7 @@ export default function RecipeReviewCard(props) {
             </CardActions>
             <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
-                    <Grid container justify={"space-between"}>
+                    <Grid container justify={"space-between"} spacing={1}>
                         <Grid item xs={3}>Number</Grid>
                         <Grid item xs={3}>Type </Grid>
                         <Grid item xs={3}>Age</Grid>
